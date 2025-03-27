@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
+body {
+    background-color: #89388b;
+}
+
+.card {
+    margin: 20px ;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #0a528d;
+    font-family: "Emblema One", system-ui;
+}
+.Login{
+    color: #89388b;
+    
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 45px;
+}
+nav  li{
+    font-weight: 60px;
+    padding-right: 60px;
+    color: black;
+    text-align: center;
+    display: inline;
+    font-size: 25px;
+    list-style: none;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
