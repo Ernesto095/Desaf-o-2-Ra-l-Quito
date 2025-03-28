@@ -1,36 +1,189 @@
-@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
-
 body {
-    background-color: #89388b;
+    background-color: #76A9FF;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: #bc82bd;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b073b1;
+    border-radius: 50%;
+    padding: 10px;
+    font-family: serif;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-links a.active::after,
+.nav-links a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+
+.main-section {
+    background-color: #76A9FF;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.featured-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-image {
+    width: 250px;
+    height: 150px;
+    background-color: lightgray;
+}
+
+.product-info {
+    max-width: 300px;
+    text-align: left;
+}
+
+.product-info p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #89388b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #76A9FF;
+}
+
+.product {
+    text-align: center;
+    width: 150px;
+}
+
+.product-box {
+    width: 100%;
+    height: 120px;
+    background-color: lightgray;
+}
+
+.campeon{
+    height: 150px;
+    width: 250px;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    background-color: #bc82bd;
+}
+
+img{
+    width: 150px;
+    height: 120px;
+}
 .card {
     margin: 20px ;
     width: 300px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 5px 10px #0a528d;
+    box-shadow: 0px 5px 10px #015396;
     font-family: "Emblema One", system-ui;
 }
-.Login{
-    color: #89388b;
+.carta h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.carta h2 {
+    font-size: 20px;
+}
+.carta {
+    padding: 20px;
+}
+
+.card img {
+     width: 300px;
+     height: 200px;
+}
+.card{
+    
+    margin: 20px; width: 300px; border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #559b60;
+    font-family: "Merriweather", serif;
+    background-color: #21b879;
     
 }
-footer{
-    background-color: aquamarine;
-    text-align: center;
-    padding: 45px;
+.tarjetas{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}     
+.Tarjetas{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
 }
-nav  li{
-    font-weight: 60px;
-    padding-right: 60px;
-    color: black;
-    text-align: center;
-    display: inline;
-    font-size: 25px;
-    list-style: none;
+.card:hover {
+    background-color: #2c7d80; 
+    transform: scale(1.05); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
 }
-h1{
-    text-align: center;
-    padding: 10px;
+.imagen7{
+    padding: 20px 15px;
+    border-radius: 50px;
+    margin: 100px 100px 400px 750px;
+    width: 500px;
+    height: 400px;
 }
